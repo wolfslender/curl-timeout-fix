@@ -1,45 +1,46 @@
 # cURL Timeout Fix Plugin
 
-## Descripción
+## Description
 
-El plugin **cURL Timeout Fix** es una solución simple para resolver el error `cURL error 28: Operation timed out after X milliseconds with 0 bytes received` que ocurre cuando WordPress intenta conectarse a servicios externos y se agota el tiempo de espera. Este plugin ajusta el tiempo de espera (`timeout`) de cURL a un valor más alto para evitar este error.
+The **cURL Timeout Fix** plugin is a simple solution to resolve the error `cURL error 28: Operation timed out after X milliseconds with 0 bytes received` that occurs when WordPress tries to connect to external services and the timeout is exceeded. This plugin adjusts the cURL timeout to a higher value to avoid this error.
 
-## Características
+## Features
 
-- Ajusta el tiempo de espera de cURL a 20 segundos.
-- Solución rápida para problemas de conexión en WordPress con APIs externas o servicios de terceros.
-- No requiere configuración adicional, simplemente activarlo y listo.
+- Adjusts the cURL timeout to 20 seconds.
+- Quick solution for connection issues in WordPress with external APIs or third-party services.
+- No additional configuration required; simply activate it and you're good to go.
 
-## Requisitos
+## Requirements
 
-- WordPress 4.0 o superior.
-- PHP 5.6 o superior.
+- WordPress 4.0 or higher.
+- PHP 5.6 or higher.
 
-## Instalación
+## Installation
 
-1. Descarga el archivo `curl-timeout-fix.php`.
-2. Sube el archivo al directorio `/wp-content/plugins/` de tu instalación de WordPress.
-3. Activa el plugin a través del menú **Plugins** en el administrador de WordPress.
+1. Download the `curl-timeout-fix.php` file.
+2. Upload the file to the `/wp-content/plugins/` directory of your WordPress installation.
+3. Activate the plugin through the **Plugins** menu in the WordPress admin panel.
 
-## Uso
+## Usage
 
-Una vez activado, el plugin automáticamente ajustará el tiempo de espera de cURL en las solicitudes de WordPress. No se requiere ninguna configuración adicional.
+Once activated, the plugin will automatically adjust the cURL timeout for WordPress requests. No additional configuration is needed.
 
-## Desinstalación
+## Uninstallation
 
-Para desinstalar el plugin:
+To uninstall the plugin:
 
-1. Desactiva el plugin desde el menú **Plugins** en WordPress.
-2. Elimina el archivo `curl-timeout-fix.php` del directorio `/wp-content/plugins/`.
+1. Deactivate the plugin from the **Plugins** menu in WordPress.
+2. Remove the `curl-timeout-fix.php` file from the `/wp-content/plugins/` directory.
 
-## Notas
+## Notes
 
-Este plugin puede ser especialmente útil para instalaciones de WordPress en servidores con configuraciones de red lentas o cuando se realizan solicitudes a servicios externos con alta latencia.
+This plugin can be particularly useful for WordPress installations on servers with slow network configurations or when making requests to external services with high latency.
 
-## Contribuciones
+## Contributions
 
-Si deseas mejorar este plugin o reportar algún problema, puedes hacerlo en [GitHub](https://github.com/wolfslender/curl-timeout-fix).
+If you would like to improve this plugin or report any issues, you can do so on [GitHub](https://github.com/wolfslender/curl-timeout-fix).
 
-## Licencia
+## License
 
-Este plugin está disponible bajo la licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+This plugin is available under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
+
