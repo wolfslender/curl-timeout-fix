@@ -53,3 +53,5 @@ Developed by Alexis Olivero
 
 Privacy Policy
 This plugin does not collect any personal data from your visitors or send any data to external services.
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwolfslender%2Fcurl-timeout-fix.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwolfslender%2Fcurl-timeout-fix?ref=badge_shield&issueType=license)
