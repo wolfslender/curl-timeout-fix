@@ -6,7 +6,8 @@ The **cURL Timeout Fix** plugin is a simple solution to resolve the error `cURL 
 
 ## Features
 
-- Adjusts the cURL timeout to 20 seconds.
+- Adjusts the cURL timeout to 30 seconds.
+- Retries failed requests up to 3 times.
 - Quick solution for connection issues in WordPress with external APIs or third-party services.
 - No additional configuration required; simply activate it and you're good to go.
 
@@ -42,16 +43,27 @@ If you would like to improve this plugin or report any issues, you can do so on 
 
 ## License
 
-This plugin is available under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
+This plugin is available under the GPL-3.0-or-later License. For more details, please refer to the [LICENSE](LICENSE) file.
 
-For support, bug reports, and feature requests, please use the GitHub Issues page or contact us through our support channels. Contributing Contributions are welcome! Please feel free to submit a Pull Request. License This plugin is licensed under the GPL v2 or later. Changelog 1.0.0 (Initial Release)
+For support, bug reports, and feature requests, please use the GitHub Issues page or contact us through our support channels.
 
-Initial release with basic media tracking functionality Basic reporting features User interface for media management Bulk actions for unused media Support for posts and pages scanning
+## Changelog
 
-Credits
+### 1.1
+
+- Adjusted the cURL timeout to 30 seconds.
+- Added retry logic for failed requests (up to 3 retries).
+
+### 1.0
+
+- Initial release with basic timeout adjustment functionality.
+
+## Credits
+
 Developed by Alexis Olivero
 
-Privacy Policy
+## Privacy Policy
+
 This plugin does not collect any personal data from your visitors or send any data to external services.
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwolfslender%2Fcurl-timeout-fix.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwolfslender%2Fcurl-timeout-fix?ref=badge_shield&issueType=license)
