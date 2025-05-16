@@ -1,11 +1,10 @@
 <?php
 /*
 Plugin Name: cURL Timeout Fix
-Plugin URI:  https://oliverodev.com
 Description: Aumenta el tiempo de espera de las solicitudes cURL para evitar el error "Operation timed out".
 Version: 1.1
 Author: Alexis Olivero
-Author URI: https://oliverodev.com
+Author URI: https://oliverodev.pages.dev/
  * License: GPL-3.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
